@@ -1,0 +1,39 @@
+body {
+  background: #ccc;
+  margin: 0;
+  padding: 40px;
+}
+
+#wrapper {
+  border: 1px solid black;
+  background: white;
+  padding: 60px;
+}
+
+h1 {
+  color: red;
+}
+
+ul.highlighted {
+  color: purple;
+}
+
+ul.highlighted li {
+  border: 1px solid red;
+  display: inline;
+  padding: 20px;
+  margin-right: 10px;
+  background: #ccc;
+}
+
+ul.highlighted li:hover {
+  background: black;
+  color: white;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bolder;
+  color: orange;
+  border: 1px solid green;
+}
